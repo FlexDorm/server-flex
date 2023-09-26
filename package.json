@@ -1,15 +1,25 @@
 {
-  "name": "json-flex",
+  "name": "server-flex",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SebastianMontes99/server-flex.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SebastianMontes99/server-flex/issues"
+  },
+  "homepage": "https://github.com/SebastianMontes99/server-flex#readme",
   "dependencies": {
+    "cors": "^2.8.5",
+    "json-serve": "^0.1.0",
     "json-server": "^0.17.3"
   }
 }
